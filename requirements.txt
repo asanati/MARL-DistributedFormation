@@ -1,0 +1,8 @@
+torch
+numpy
+gym
+pynput
+matplotlib
+stable_baselines3[extra]
+wandb
+hydra-core

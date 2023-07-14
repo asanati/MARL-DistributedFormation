@@ -1,0 +1,7 @@
+# name for the run, will show up in W&B and the directory in logs/ where checkpoints are saved
+name: "default"
+num_formation: 1000
+num_agents_per_formation: 5
+# 0: no reward is distributed, 0.5: the reward from neighbors completely take over
+share_reward_ratio: 0.25
+goal_in_obs: True
